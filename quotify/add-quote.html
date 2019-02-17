@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Quote</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="addQuote">
+
+	<h1>Quotify</h1>
+
+	<ul class="links">
+		<li><a href="index.html">Random Quote (API)</a></li>
+		<li><a href="random-local-quote.html">Random Quote (Local)</a></li>
+		<li><a class="active" href="add-quote.html">Add Quote</a></li>
+		<li><a href="all-local-quotes.html">List All Quote (Local)</a></li>
+	</ul>
+
+	<form class="quoteForm" id="quoteForm">
+		<textarea placeholder="Quote" id="quote"></textarea>
+		<p class="status d-none" id="quoteError"></p>
+
+		<input type="text" placeholder="Author Name" id="author">
+		<p class="status d-none" id="authorError"></p>
+
+		<button class="getQuote" id="saveQuoteBtn">Save</button>
+		<p class="status d-none" id="formStatus"></p>
+	</form>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
