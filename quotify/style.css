@@ -73,6 +73,7 @@ button.getQuote.cancel{
 	color: black;
     border: 1px solid #ddd;
     padding: 9px 20px;
+    margin-left: 10px;
 }
 #imgLoader{
 	width: 50px;
@@ -154,6 +155,15 @@ button.getQuote.cancel{
 .updatebtn button{
 	width: auto !important;
 }
+.github{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	display: block;
+}
+.github img{
+	width: 40px;
+}
 @media screen and (max-width:576px){
 	.saveToLocal{
 		right: 50%;
@@ -162,5 +172,8 @@ button.getQuote.cancel{
 	}
 	.quoteList{
 		margin: 5px 0 50px;
+	}
+	.github img{
+		width: 30px;
 	}
 }
